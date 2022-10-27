@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+  min-height: 100vh;
+  text-align: center;
+}
+.dashboard {
+  display: flex;
+  flex-flow: column;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #0064ff;
+  border-radius: 5px;
+  color: white;
+}
+.exchanger {
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #fcdd09;
+  border-radius: 5px;
+}
+input,
+select {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.75em;
+  padding: 0.25em 0.5em 0.3125em;
+  margin: 0.5em;
+  border-radius: 0.25em;
+  background: transparent;
+  transition: all 0.1s;
+}
